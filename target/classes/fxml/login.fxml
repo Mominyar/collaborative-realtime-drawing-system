@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="opsmap.client.LoginController" prefWidth="520" prefHeight="360">
+    <top>
+        <VBox alignment="CENTER" spacing="4">
+            <padding>
+                <Insets top="16" right="16" bottom="16" left="16" />
+            </padding>
+            <Label text="OpsMap Operations Room" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+            <Label text="Sign in to coordinate your team" />
+        </VBox>
+    </top>
+    <center>
+        <VBox spacing="12" alignment="CENTER">
+            <VBox spacing="8" maxWidth="260">
+                <Label text="Username" />
+                <TextField fx:id="usernameField" promptText="Enter username" />
+                <Label text="Position (registration only)" />
+                <TextField fx:id="positionField" promptText="e.g., Analyst, Commander" />
+                <Label text="Password" />
+                <PasswordField fx:id="passwordField" promptText="Enter password" />
+            </VBox>
+            <HBox spacing="10" alignment="CENTER">
+                <Button text="Login" onAction="#handleLogin" prefWidth="100" />
+                <Button text="Register" onAction="#handleRegister" prefWidth="100" />
+            </HBox>
+            <Label fx:id="statusLabel" text="" />
+        </VBox>
+    </center>
+    <padding>
+        <Insets top="12" right="24" bottom="12" left="24" />
+    </padding>
+</BorderPane>
