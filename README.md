@@ -281,7 +281,7 @@ The Maven configuration targets Java 25 and JavaFX 25 and uses the JavaFX Contro
 ## 1. Clone
 
 ```bash
-git clone https://github.com/Mujeebmominyar/collaborative-realtime-drawing-system.git
+git clone https://github.com/mominyar/collaborative-realtime-drawing-system.git
 
 cd collaborative-realtime-drawing-system
 ```
@@ -414,7 +414,7 @@ Amirkabir University of Technology
 
 <br>
 
-<a href="https://github.com/Mujeebmominyar">
+<a href="https://github.com/mominyar">
 
 <img src="https://img.shields.io/badge/GitHub-mominyar-181717?style=for-the-badge&logo=github">
 
