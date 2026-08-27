@@ -416,13 +416,13 @@ Amirkabir University of Technology
 
 <a href="https://github.com/Mujeebmominyar">
 
-<img src="https://img.shields.io/badge/GitHub-Mujeebmominyar-181717?style=for-the-badge&logo=github">
+<img src="https://img.shields.io/badge/GitHub-mominyar-181717?style=for-the-badge&logo=github">
 
 </a>
 
 <br><br>
 
-<a href="https://github.com/Mujeebmominyar">
+<a href="https://github.com/mominyar">
 View my GitHub profile →
 </a>
 
